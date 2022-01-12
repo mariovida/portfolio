@@ -1,0 +1,101 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Barlow';
+}
+body {
+	background-color: #333;
+	background-image: url('img/laptop.jpg');
+	background-size: auto;
+	background-position: top;
+	background-repeat: no-repeat;
+	background-blend-mode: lighten;
+	text-align: center;
+	color: black;
+}
+.centered {
+	position: absolute;
+	top: 41%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	border: 2px solid black;
+	border-radius: 5px;
+	padding: 55px 30px;
+	background-color: #bfbfbf;
+	margin-top: 2%;
+}
+h1 {
+	font-size: 58px;
+	padding-bottom: 20px;
+}
+/*hr {
+	border: 2px solid white;
+	border-radius: 8px;
+	width: 100%;
+}*/
+p:nth-child(2) {
+	font-size: 26px;
+	padding-top: 25px;
+	padding-bottom: 7px;
+}
+p:nth-child(3) {
+	font-size: 19px;
+}
+span {
+	font-weight: bold;
+	font-size: 21px;
+	text-decoration: underline;
+	color: #E60000;
+}
+@media (max-width: 1024px) {
+	.centered {
+		top: 45%;
+		padding: 45px 35px;
+	}
+	h1 {
+		font-size: 54px;
+		padding-bottom: 16px;
+	}
+	p:nth-child(2) {
+		font-size: 24px;
+		padding-bottom: 8px;
+	}
+	p:nth-child(3) {
+		font-size: 18px;
+	}
+}
+@media (max-width:768px) {
+	.centered {
+		top: 45%;
+		padding: 45px 35px;
+	}
+	h1 {
+		font-size: 46px;
+		padding-bottom: 12px;
+	}
+	p:nth-child(2) {
+		font-size: 23px;
+		padding-top: 15px;
+	}
+	p:nth-child(3) {
+		font-size: 16px;
+	}
+}
+@media (max-width:570px) {
+	.centered {
+		top: 42%;
+		padding: 45px 35px;
+	}
+	h1 {
+		font-size: 42px;
+		padding-bottom: 10px;
+	}
+	p:nth-child(2) {
+		font-size: 22px;
+		padding-top: 16px;
+	}
+	p:nth-child(3) {
+		font-size: 15px;
+	}
+}
