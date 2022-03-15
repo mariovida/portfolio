@@ -1,4 +1,4 @@
-<h1 align="center">FI Design - Freelance company</h1>
+<h1 align="center">FI Design - Freelance company 🖥️</h1>
 
 ![image](/img/show1.png)
 
